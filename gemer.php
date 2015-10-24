@@ -1,7 +1,7 @@
 <?php
-include'includes/head.html';
+include'includes/head.php';
 include'includes/ontop.html';
-include'includes/nav.html';
+include'includes/nav.php';
 
 if($_GET['page'] == "arma") {
 	include 'content/arma.html';
